@@ -10,3 +10,7 @@ frontend/.next/
 # Ignore environment variables
 .env
 .env.local
+
+# Ignore large hospital tour videos
+frontend/public/videos/*.MOV
+frontend/public/videos/*.mp4
