@@ -115,3 +115,69 @@
   color: white;
   opacity: 80%;
 }
+
+/* UserReports.module.css */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: #325bb3;
+  border-bottom: 3px solid #325bb3;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.reportGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.reportCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s;
+}
+
+.reportCard:hover {
+  transform: translateY(-5px);
+}
+
+.reportTitle {
+  color: #1e293b;
+  margin-top: 0;
+}
+
+.fileList {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fileLink {
+  color: #325bb3;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fileLink:hover {
+  text-decoration: underline;
+}
+
+.dateTag {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  display: block;
+  margin-top: 10px;
+}

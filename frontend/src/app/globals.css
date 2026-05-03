@@ -157,7 +157,7 @@ main {
 
 .site-subnav a {
   color: var(--hftext-color);
-  font-size: 1.1rem;
+  font-size: 1.02rem;
   transition:
     color 0.3s ease,
     transform 0.3s ease; /* fix */

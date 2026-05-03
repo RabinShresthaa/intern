@@ -35,6 +35,10 @@ export default function AdminDashboardPage() {
           <h3>Edit FAQs</h3>
           <p>Answer common visitor questions.</p>
         </div>
+          <div className="card">
+          <h3>Edit Reports</h3>
+          <p>Update reports info, video, and global preferences.</p>
+        </div>
         <div className="card">
           <h3>Feed Backs</h3>
           <p>Update contact info, video, and global preferences.</p>

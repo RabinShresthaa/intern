@@ -1,0 +1,17 @@
+Changes:
+1. Dark Mode
+2. Toggle(For Health Package and Audit Report):
+    -scenario 1
+        -Admin doesnot wants to show the section on heading ( eg: home , Department)
+
+    -scenario 2
+        -Admin does wants to show the section on heading ( eg: home , Department)
+
+3. Report (IN admin/user) : Editable from Admin
+    -Contains:
+        -Title Section (heading) : Editable from Admin
+        -Description Section : Editable from admin
+        -Upload Section : Allows Uploading Excel , word , image , Video (new section for new file)
+                        : Able to download file
+                        : Has toggle to show or not show in the nav
+ 
