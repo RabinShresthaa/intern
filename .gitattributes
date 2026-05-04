@@ -1,1 +1,2 @@
 frontend/public/videos/1776750230290-hospital-tour.MOV filter=lfs diff=lfs merge=lfs -text
+backend/public/uploads/*.MOV filter=lfs diff=lfs merge=lfs -text
